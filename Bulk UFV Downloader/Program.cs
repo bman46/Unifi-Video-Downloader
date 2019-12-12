@@ -68,6 +68,7 @@ namespace Bulk_UFV_Downloader
                     // Example: /mnt/raid0/recordings/735682ef-c7d2-31c0-b217-5fae42fe52a4/2019/12/07/
                     RemoteDirectoryInfo directory = session.ListDirectory(args[6]+"/"+UUID+"/"+Year+"/"+Month+"/"+Day+"/");
                     long TotalBytes = 0;
+                    
                     foreach (RemoteFileInfo fileInfo in directory.Files)
                     {
                         System.DateTime StartTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
