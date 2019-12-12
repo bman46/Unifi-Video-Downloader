@@ -1,4 +1,4 @@
-# Unifi-Video-Downloader
+# Unifi Video Downloader
 Downloads video files for Unifi Video.
 ## Usage:
 Requires the following command line arguments in this order, seperated by a space:
