@@ -1,5 +1,7 @@
 # Unifi Video Downloader
-Downloads video files for Unifi Video and compiles then into a single video
+[![Build status](https://ci.appveyor.com/api/projects/status/sgpp8a63vbm4jod3?svg=true)](https://ci.appveyor.com/project/bman46/unifi-video-downloader)
+
+Downloads video files from Unifi Video and compiles then into a single video.
 ## Usage:
 Requires the following command line arguments in this order, seperated by a space:
   1. IP
