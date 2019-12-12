@@ -90,7 +90,7 @@ namespace Bulk_UFV_Downloader
                         Console.WriteLine("Exiting.");
                         return;
                     }
-                                        Console.Write("\nEnter Output:");
+                    Console.Write("\nEnter Output:");
                     string output = Console.ReadLine();
                     //Downloader:
                     Console.WriteLine("Initializing Downloads...");
