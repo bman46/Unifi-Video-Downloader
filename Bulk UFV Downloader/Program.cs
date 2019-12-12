@@ -115,6 +115,7 @@ namespace Bulk_UFV_Downloader
                         DownloadCount++;
                         Console.Write("\rDownloaded: {0} Files.",DownloadCount);
                     }
+                    Console.WriteLine("");
                     //Complile videos:
                     VideoProcessing processor = new VideoProcessing(FolderName, FolderName, fileLocations);
                     Console.WriteLine("Splicing files...");
