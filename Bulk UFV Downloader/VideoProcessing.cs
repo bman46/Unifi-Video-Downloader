@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using Xabe.FFmpeg;
+using Xabe.FFmpeg.Model;
 
 namespace Bulk_UFV_Downloader
 {
@@ -71,7 +73,9 @@ namespace Bulk_UFV_Downloader
         //for testing purposes:
         public void Concatnate(string output, Boolean test)
         {
-
+            IConversionResult result = Conversion.Concatenate(output, names.ToArray()).Result;
+            Console.WriteLine(result.Arguments);
+            Console.WriteLine(result.MediaInfo);
         }
     }
 }

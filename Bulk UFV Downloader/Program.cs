@@ -119,6 +119,7 @@ namespace Bulk_UFV_Downloader
                     //Complile videos:
                     VideoProcessing processor = new VideoProcessing(FolderName, FolderName, fileLocations);
                     Console.WriteLine("Splicing files...");
+                    //add true for XABE.FFmpeg testing.
                     processor.Concatnate(output);
                     Console.WriteLine("Complete.");
                 }
