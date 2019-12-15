@@ -12,4 +12,4 @@ Requires the following command line arguments in this order, seperated by a spac
   
 I reccomand making a shortcut to this application with the parameters inclueded.
 Make sure to remove the video files from the %TEMP% folder when done using.
-###### Note: This is not the unifi username and password, rather the one to the linux system. requires sudo without password (I use a seperate account for UFV and i dont give non-root users permission to copy or modify the files.).
+###### Note: This does not use the unifi username and password, rather the one to the linux system. requires sudo without password (I use a seperate account for UFV and i dont give non-root users permission to copy or modify the files).
