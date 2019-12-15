@@ -11,5 +11,5 @@ Requires the following command line arguments in this order, seperated by a spac
   5. Path to recording folder (Similar to: /mnt/raid0/recordings/)
   
 I reccomand making a shortcut to this application with the parameters inclueded.
-Make sure to remove the video files from the %TEMP% file when done.
-###### Note: This is not the unifi username and password, rather the one to the linux system. requires sudo without password (I use a seperate account for UFV and i dont have permission to copy on non root users).
+Make sure to remove the video files from the %TEMP% folder when done using.
+###### Note: This does not use the unifi username and password, rather the one to the linux system. requires sudo without password (I use a seperate account for UFV and i dont give non-root users permission to copy or modify the files).
