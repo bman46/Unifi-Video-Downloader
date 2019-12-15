@@ -67,5 +67,11 @@ namespace Bulk_UFV_Downloader
             }
             return path;
         }
+
+        //for testing purposes:
+        public void Concatnate(string output, Boolean test)
+        {
+
+        }
     }
 }
