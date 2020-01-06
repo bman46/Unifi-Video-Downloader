@@ -75,7 +75,7 @@ namespace Bulk_UFV_Downloader
         {
             IConversionResult result = Conversion.Concatenate(output, names.ToArray()).Result;
             Console.WriteLine(result.Arguments);
-            Console.WriteLine(result.MediaInfo);
+            //Console.WriteLine(result.MediaInfo);
         }
     }
 }
